@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/prism.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
+    <style>
+        body{
+          font-family: 'Roboto', sans-serif;
+        }
+  
+        @media only screen and (min-width : 481px) {
+          .btn-mobile-visible {
+            visibility: hidden;
+          };
+  
+          .btn-desktop-visible {
+            visibility: visible;
+          };   
+        }
+        @media only screen and (max-width:480px){
+          .btn-mobile-visible{
+            visibility: visible;
+          }
+          .btn-desktop-visible{
+            visibility: hidden;
+          }
+        }
+      </style>
+    <title>informstalin</title>
+</head>
+<body>
+<article class="cf">
+      <h3 style="text-align: center;">ДАША</h3>
+      <figure style="text-align: center;">
+        <figcaption><h3>я даша</h3></figcaption>
+      </figure>
+      <section>
+        <h2>Здравствуйте</h2>
+        <p>окей мы просто играем в жизнь</p>
+        <section>
+          <h3>Вот он</h3>
+          <figure>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FVY3ixSfd9oA%2Fmaxresdefault.jpg&f=1&nofb=1">
+            <figcaption>
+              <code>какой красавчик</code>
+            </figcaption>
+          </figure>
+        </section>
+      </section>
+      <section>
+        <pre>
+          <code class="language-pascal">
+          Program iosivlenin;
+          uses GraphABC;
+          var x:string;b:integer;
+          begin
+            writeln('Как тебя зовут');
+            readln(x);write(x);
+            writeln(' введи свой год');
+            readln(b);
+            if b = 2006 then
+                SetFontColor(clRed);
+            if b = 2005 then
+                SetFontColor(clGreen);
+            writeln('Привет ' + x + b);
+          end.
+          </code>
+          </pre>
+      </section>  
+  </article>
+<script src="prism.js"></script>
+
+</body>
+</html>
